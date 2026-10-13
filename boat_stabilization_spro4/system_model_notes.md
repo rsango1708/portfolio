@@ -37,6 +37,10 @@ Due to the complexity of theoretically calculating every hydrodynamic parameter,
 3. **Identified Plant Model:**
    
    $$\frac{0.05577s^2 - 0.01505s - 0.00006872}{0.3543s^4 + 0.7662s^3 + 0.4369s^2 + 0.02479s + 0.0001596}$$
+   
+   The model fit of the transfer function compared to the empirical data collected can be seen here:
+   
+   [Model fit](screenshots/modelfit.png)
 
 * **Key Observation:** The transfer function contains a zero in the right-half plane, confirming the system exhibits **non-minimum phase behavior** (initial tilt in the opposite direction before correcting).
 

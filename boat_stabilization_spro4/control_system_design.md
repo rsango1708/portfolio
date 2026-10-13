@@ -31,7 +31,7 @@ Two distinct tuning methodologies were implemented and compared:
 ### Method A: Internal Model Control (IMC) Approach
 * **Rationale:** IMC was initially chosen because it is theoretically effective for non-minimum phase systems with right-half-plane zeros, where traditional tuning methods like Ziegler-Nichols fail.
 * **Implementation:** The open-loop transfer function was decomposed into invertible and non-invertible parts, and combined with a low-pass filter $F(s) = \frac{1}{(\lambda s + 1)^n}$ to attenuate high-frequency noise and prevent unstable pole/zero inversions.
-* **Result:** The IMC approach yielded an unreasonable response with a massive settling time ($\ge 45$ seconds) and steady-state inversion[cite: 31, 35, 48]. This occurred because the empirical plant transfer function contained poles too close to the origin.
+* **Result:** The IMC approach yielded an unreasonable response with a massive settling time ($\ge 45$ seconds) and steady-state inversion. This occurred because the empirical plant transfer function contained poles too close to the origin.
 
 ### Method B: MATLAB PID Tuner App (Selected Method)
 * **Rationale:** Given the limitations encountered with manual IMC calculations on the complex empirical model, MATLAB's automated **PID Tuner App** was utilized.

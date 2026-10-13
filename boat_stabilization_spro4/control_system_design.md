@@ -50,6 +50,9 @@ The controller gains computed via the MATLAB PID tuner app and implemented in th
 * **Derivative Term ($K_d$):** $-4.64$
 * **Filter Coefficient ($N$):** $21.17$
 
+  The step response of the final controller can be seen here:
+   [Final step response](screenshots/settling time.png)
+
 ---
 
 

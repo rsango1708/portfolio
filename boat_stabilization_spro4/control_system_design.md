@@ -51,7 +51,7 @@ The controller gains computed via the MATLAB PID tuner app and implemented in th
 * **Filter Coefficient ($N$):** $21.17$
 
   The step response of the final controller can be seen here:
-   [Final step response](screenshots/settling time.png)
+   [Final step response](screenshots/settlingtime.png)
 
 ---
 

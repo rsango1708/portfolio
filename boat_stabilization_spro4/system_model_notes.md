@@ -41,8 +41,3 @@ Due to the complexity of theoretically calculating every hydrodynamic parameter,
 * **Key Observation:** The transfer function contains a zero in the right-half plane, confirming the system exhibits **non-minimum phase behavior** (initial tilt in the opposite direction before correcting).
 
 ---
-
-## 4. Controller Design & Insights
-Using the identified transfer function, closed-loop controllers were structured:
-* Evaluated Internal Model Control (IMC) with low-pass filtering for non-minimum phase compensation.
-* Implemented digital PID tuning via MATLAB's PID tuner application to achieve stable convergence within operating constraints.

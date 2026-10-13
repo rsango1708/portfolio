@@ -13,6 +13,9 @@ The feedback control loop was mapped to physical components of the system:
 
 The controller compares the measured roll angle from the IMU against the desired setpoint ($0^\circ$) to compute the error and drive the servo position accordingly.
 
+Here it can be seen how the boat angle and servo angle are opposite, due to the counteracting effect of the keel.
+[Comparison of Keel and Boat angle](screenshots/comp.png)
+
 ---
 
 ## 2. Open-Loop Transfer Function Combination

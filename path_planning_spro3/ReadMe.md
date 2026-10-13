@@ -7,6 +7,6 @@ This folder contains the path-planning and navigation software developed for an 
 
 ### How to Run:
 Make sure you have the required dependencies installed:
-bash
-pip install networkx matplotlib numpy
+bash  
+pip install networkx matplotlib numpy  
 python pathplanidle.py

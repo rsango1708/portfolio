@@ -30,7 +30,7 @@ $$f(x) \approx f(\bar{x}) + \frac{df}{dx}\Big|_{x=\bar{x}}(x - \bar{x})$$
 ---
 
 ## 3. Plant Transfer Function & System Identification
-Due to the complexity of theoretically calculating every hydrodynamic parameter, the plant transfer function ($G_{plant}(s)$)—mapping the input keel angle to the output boat roll angle—was derived using empirical data:
+Due to the complexity of theoretically calculating every hydrodynamic parameter, the plant transfer function $G_{plant}(s)$ mapping the input keel angle to the output boat roll angle was derived using empirical data:
 
 1. **Experimental Data Collection:** Open-loop step inputs ($5^{\circ}$ to $20^{\circ}$) were applied to the airkeel in a water basin while recording IMU roll data.
 2. **MATLAB Processing:** The collected data was detrended, filtered, and processed using MATLAB's **System Identification Toolbox**.

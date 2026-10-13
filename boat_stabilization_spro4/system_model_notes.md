@@ -34,9 +34,9 @@ Due to the complexity of theoretically calculating every hydrodynamic parameter,
 
 1. **Experimental Data Collection:** Open-loop step inputs ($5^{\circ}$ to $20^{\circ}$) were applied to the airkeel in a water basin while recording IMU roll data.
 2. **MATLAB Processing:** The collected data was detrended, filtered, and processed using MATLAB's **System Identification Toolbox**.
-3. **Identified Plant Model:** 
+3. **Identified Plant Model:**
    
-   $$G_{plant}(s) = \frac{0.143s^2 - 0.3859s - 0.0176}{s^2 + 0.6278s + 0.04092}$$
+   $$\frac{0.05577s^2 - 0.01505s - 0.00006872}{0.3543s^4 + 0.7662s^3 + 0.4369s^2 + 0.02479s + 0.0001596}$$
 
 * **Key Observation:** The transfer function contains a zero in the right-half plane, confirming the system exhibits **non-minimum phase behavior** (initial tilt in the opposite direction before correcting).
 

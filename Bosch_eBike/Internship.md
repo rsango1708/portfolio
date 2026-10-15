@@ -54,7 +54,7 @@ Python, CAN bus, UDS diagnostics, embedded ECU flashing, MVVM, Jenkins, Jira, Sc
 ---
 
 ## What I took away
-* **Small tools get used.** The most valuable things I made were not clever. They removed a tedious step from people's day.
+* **Small tools get used.** The most valuable things I made were not too complex. They just removed a tedious step from people's day.
 * **Systems are messier than coursework.** A bug can sit in the software, the wiring, the timing or a tool no one has documented. You learn to rule things out one at a time.
 * **Process matters more than I expected.** Scrum and Jira were things I'd learned about in a course. Seeing a team actually run on them, with sprint plannings, reviews and clear ownership, made the point much better than the lecture did.
 * **Supervisors are busy.** Mine were very helpful but short on time, so I learned to onboard myself onto unfamiliar tools and come to them with specific questions.

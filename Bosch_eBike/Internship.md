@@ -1,5 +1,5 @@
 # Six months in the Bosch eBike ABS testing team
-Roko Sango
+Roko Sango  
 Bosch eBike Systems, ABS department · 1 February to 31 July 2026
 
 ## Summary

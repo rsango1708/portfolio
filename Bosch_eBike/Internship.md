@@ -29,7 +29,7 @@ This is the project I'm proudest of, mostly because it kept turning into somethi
 ### BioBike wiring fault
 The BioBike is a non-electric bike that carries a Bosch ABS and a remote controller. It is used by professional downhill riders. One had just been sent a test setup when the team found that CAN signals from the ABS weren't reaching the controller.
 
-I got the task on short notice and high priority. The cause was an incorrect resistance value in the custom wiring harness, which degraded the signal. I rebuilt and soldered the harness correctly, and then travelled to France to hand the new cables to the rider in person. Debugging a physical fault under time pressure was a different game from anything I had done at university.
+I got the task on short notice and high priority. The cause was an incorrect resistance value in the custom wiring harness, which degraded the signal. I rebuilt and soldered the harness correctly, and then travelled to France to hand the new cables to the rider in person. Debugging a physical fault under time pressure was so much different from projects I had done at university.
 
 ### Onboarding on the Bosch Remote Controller and the security setup
 My first technical task was converting new remote controllers (BRCs) from production to development security state using Bosch's PKI conversion tool. It sounds small, but the BRC is the main control component of the bike, so it was the fastest way to learn how the parts interact.
